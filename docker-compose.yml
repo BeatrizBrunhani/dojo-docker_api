@@ -9,7 +9,7 @@ volumes:
 
 services:
   api:
-    image: raphaelcastro35/dojo-api_produto:v1
+    image: beatrizbrunhani/api-produto:v1
     networks:
       - api-network
     depends_on:
